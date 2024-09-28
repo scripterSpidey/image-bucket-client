@@ -1,10 +1,13 @@
-
+import { RouterProvider } from "react-router-dom"
+import AppRoutes from "./routes/AppRoutes"
+import { Toaster } from "react-hot-toast"
 function App() {
 
   return (
-    <div className="">
-      Hello
-    </div>
+    <>
+      <RouterProvider router={AppRoutes}></RouterProvider>
+      <Toaster position="top-center"/>
+    </>
   )
 }
 
