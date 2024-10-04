@@ -14,7 +14,7 @@ const Dashboard = () => {
         navigate('/')
     }
     return (
-        <div>
+        <div className=' h-screen flex flex-col'>
             <Header activeUser={activeUser}/>
             <Outlet />
         </div>

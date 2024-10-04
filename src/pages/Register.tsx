@@ -107,7 +107,7 @@ export default function Register() {
                         type="submit"
                         className="w-full bg-[#ffdf00] text-[#242424] hover:bg-[#ffd000] transition-colors"
                     >
-                        Login
+                        Get OTP
                     </Button>
                 </form>
                 <div className="space-y-4 text-center">

@@ -4,11 +4,11 @@ import toast from 'react-hot-toast';
 
 const axiosreq = axios.create({
   baseURL: BASE_URL,
-  timeout: 5000,
+  timeout: 10000,
   withCredentials: true
 });
 
-axiosreq.interceptors.request.use((config) => {
+axiosreq.interceptors.request.use((config) =>{
   if (config.data instanceof FormData) {
     config.headers['Content-Type'] = 'multipart/form-data'
   } else {
