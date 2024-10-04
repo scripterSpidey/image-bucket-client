@@ -1,5 +1,5 @@
 
-import { Axis3D } from "lucide-react"
+
 import axiosreq from "../axios.config"
 import { imageEndpoints, userAuthEndpoints } from "../endpoints"
 
